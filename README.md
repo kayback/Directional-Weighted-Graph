@@ -26,3 +26,4 @@ make lcov
 ```
 ### Code Coverage ###
 Please open test/build/lcoverage/index.html file with your browser.
+![Code Coverage](code_coverage.png "Code Coverage")
