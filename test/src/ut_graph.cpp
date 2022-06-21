@@ -20,6 +20,7 @@ namespace graph_positive {
     EXPECT_EQ(g_ptr->adj_list.size(), n);
   }
   TEST_F(graph_test, graph_test_dijkstra_shortest_path) {
+    printf("şükrü");
     int selected_node = 0;
     ASSERT_NO_THROW(g_ptr->dijkstra_shortest_path(selected_node, n););
     EXPECT_EQ(g_ptr->adj_list.size(), n);
